@@ -99,7 +99,7 @@ function Home() {
             </div>
           </div>
           <div className="space-y-4">
-            <h1 className="text-3xl tracking-tighter sm:text-4xl md:text-5xl">
+            <h1 className="text-3xl tracking-tighter sm:text-4xl md:text-5xl xl:whitespace-nowrap">
               {homeData.title}
             </h1>
             <p className="text-2xl tracking-tight sm:text-3xl md:text-4xl">
