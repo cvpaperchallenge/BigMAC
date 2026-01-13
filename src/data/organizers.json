@@ -1,0 +1,78 @@
+{
+  "title": "Organizing Team",
+  "subtitle": "Meet the team behind the Machine Learning Workshop",
+  "organizers": [
+    {
+      "name": "Hirokatsu Kataoka",
+      "affiliation": "AIST / Oxford VGG",
+      "photo": "/organizers/hirokatsu.kataoka.png",
+      "bio": "",
+      "website": "https://hirokatsukataoka.net/"
+    },
+    {
+      "name": "Yoshihiro Fukuhara",
+      "affiliation": "AIST / Waseda University",
+      "photo": "/organizers/yoshihiro.fukuhara.png",
+      "bio": "",
+      "website": "https://gatheluck.net"
+    },
+    {
+      "name": "Yonglong Tian",
+      "affiliation": "OpenAI",
+      "photo": "/organizers/yonglong.tian.jpg",
+      "bio": "",
+      "website": "https://people.csail.mit.edu/yonglong/"
+    },
+    {
+      "name": "Elliott / Shangzhe Wu",
+      "affiliation": "University of Cambridge",
+      "photo": "/organizers/shangzhe.wu.jpg",
+      "bio": "",
+      "website": "https://elliottwu.com/"
+    },
+    {
+      "name": "Oishi Deb",
+      "affiliation": "Oxford VGG",
+      "photo": "/organizers/oishi.deb.jpg",
+      "bio": "",
+      "website": "https://scholar.google.com/citations?user=_x5INRkAAAAJ"
+    },
+    {
+      "name": "Ryousuke Yamada",
+      "affiliation": "AIST",
+      "photo": "/organizers/ryousuke.yamada.png",
+      "bio": "",
+      "website": "https://ryosuke-yamada.github.io"
+    },
+    {
+      "name": "Christian Rupprecht",
+      "affiliation": "Oxford VGG",
+      "photo": "/organizers/christian.rupprecht.jpg",
+      "bio": "",
+      "website": "https://chrirupp.github.io/"
+    }
+  ],
+  "programChairs": [
+    {
+      "name": "Prof. Michael Chen",
+      "affiliation": "MIT",
+      "bio": "Associate Professor specializing in deep learning and neural networks.",
+      "email": "example@mit.edu",
+      "website": "#"
+    },
+    {
+      "name": "Dr. Emily Taylor",
+      "affiliation": "University of Tokyo",
+      "bio": "Research scientist focusing on computer vision and generative models.",
+      "email": "example@u-tokyo.ac.jp",
+      "website": "#"
+    },
+    {
+      "name": "Prof. David Lee",
+      "affiliation": "ETH Zurich",
+      "bio": "Professor of Computer Science with expertise in reinforcement learning and robotics.",
+      "email": "example@ethz.ch",
+      "website": "#"
+    }
+  ]
+}

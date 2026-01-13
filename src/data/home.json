@@ -1,0 +1,44 @@
+{
+  "title": "Visual General Intelligence",
+  "tagline": "-Vision Research Toward the AGI Era-",
+  "subtitle": "CVPR 2026 Workshop",
+  "eventInfo": {
+    "date": "Not Decided Yet",
+    "location": "Denver Colorado"
+  },
+  "overview": {
+    "mission": "This workshop aims to bring together researchers and practitioners in the field of machine learning to discuss the latest advances and challenges in computer vision applications. We focus on innovative approaches, emerging techniques, and real-world implementations.",
+    "keyTopics": [
+      "Recognition, generation, reconstruction, any visual/multi-modal tasks in limited situations",
+      "{Self, Semi, Weakly, Un}-supervised learning with very limited resources",
+      "{Zero, One, Few}-shot learning with very limited resources",
+      "Training convnets, transformers, diffusion, foundation models, and any other models with relatively fewer resources",
+      "Applications in healthcare, robotics, and autonomous systems"
+    ]
+  },
+  "importantDates": [
+    {
+      "title": "Paper Submission",
+      "date": "July 15, 2025"
+    },
+    {
+      "title": "Notification",
+      "date": "August 15, 2025"
+    },
+    {
+      "title": "Camera Ready",
+      "date": "September 1, 2025"
+    },
+    {
+      "title": "Workshop Date",
+      "date": "October 15-16, 2025"
+    }
+  ],
+  "latestNews": [
+    {
+      "title": "Workshop page open",
+      "date": "December 21, 2025",
+      "content": "We are excited to announce that our workshop page is now live. We will continue to add information, so please check back regularly for updates."
+    }
+  ]
+}
