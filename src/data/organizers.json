@@ -1,78 +1,61 @@
 {
   "title": "Organizing Team",
-  "subtitle": "Meet the team behind the Machine Learning Workshop",
+  "subtitle": "Meet the team behind the BigMAC Workshop",
   "organizers": [
+    {
+      "name": "Yuki M. Asano",
+      "affiliation": "University of Technology Nuremberg (UTN)",
+      "photo": "/organizers/yuki.asano.png",
+      "website": "https://yukimasano.github.io/"
+    },
+    {
+      "name": "Anna Kukleva",
+      "affiliation": "Max-Planck Institute for Informatics",
+      "photo": "/organizers/anna.kukleva-302x302.jpg",
+      "website": "https://annusha.github.io/"
+    },
     {
       "name": "Hirokatsu Kataoka",
       "affiliation": "AIST / Oxford VGG",
       "photo": "/organizers/hirokatsu.kataoka.png",
-      "bio": "",
       "website": "https://hirokatsukataoka.net/"
+    },
+    {
+      "name": "Ryousuke Yamada",
+      "affiliation": "AIST / University of Technology Nuremberg (UTN)",
+      "photo": "/organizers/ryousuke.yamada.png",
+      "website": "https://ryosuke-yamada.github.io/"
     },
     {
       "name": "Yoshihiro Fukuhara",
       "affiliation": "AIST / Waseda University",
       "photo": "/organizers/yoshihiro.fukuhara.png",
-      "bio": "",
-      "website": "https://gatheluck.net"
+      "website": "https://gatheluck.net/"
     },
     {
-      "name": "Yonglong Tian",
-      "affiliation": "OpenAI",
-      "photo": "/organizers/yonglong.tian.jpg",
-      "bio": "",
-      "website": "https://people.csail.mit.edu/yonglong/"
+      "name": "Go Irie",
+      "affiliation": "Tokyo University of Science",
+      "photo": "/organizers/go.irie-302x302.jpg",
+      "website": "https://scholar.google.co.jp/citations?user=2bCSG1AAAAAJ/"
     },
     {
-      "name": "Elliott / Shangzhe Wu",
-      "affiliation": "University of Cambridge",
-      "photo": "/organizers/shangzhe.wu.jpg",
-      "bio": "",
-      "website": "https://elliottwu.com/"
+      "name": "Ivona Najdenkoska",
+      "affiliation": "University of Amsterdam",
+      "photo": "/organizers/ivona.najdenkoska-302x302.jpg",
+      "website": "https://ivonajdenkoska.github.io/"
     },
     {
-      "name": "Oishi Deb",
-      "affiliation": "Oxford VGG",
-      "photo": "/organizers/oishi.deb.jpg",
-      "bio": "",
-      "website": "https://scholar.google.com/citations?user=_x5INRkAAAAJ"
+      "name": "Aida Nematzadeh",
+      "affiliation": "DeepMind",
+      "photo": "/organizers/aida.nematzadeh-302x302.jpg",
+      "website": "http://www.aidanematzadeh.me/"
     },
     {
-      "name": "Ryousuke Yamada",
-      "affiliation": "AIST",
-      "photo": "/organizers/ryousuke.yamada.png",
-      "bio": "",
-      "website": "https://ryosuke-yamada.github.io"
-    },
-    {
-      "name": "Christian Rupprecht",
-      "affiliation": "Oxford VGG",
-      "photo": "/organizers/christian.rupprecht.jpg",
-      "bio": "",
-      "website": "https://chrirupp.github.io/"
+      "name": "Serge Belongie",
+      "affiliation": "University of Copenhagen",
+      "photo": "/organizers/serge.belongie-302x302.jpg",
+      "website": "https://serge.belongie.com/"
     }
   ],
-  "programChairs": [
-    {
-      "name": "Prof. Michael Chen",
-      "affiliation": "MIT",
-      "bio": "Associate Professor specializing in deep learning and neural networks.",
-      "email": "example@mit.edu",
-      "website": "#"
-    },
-    {
-      "name": "Dr. Emily Taylor",
-      "affiliation": "University of Tokyo",
-      "bio": "Research scientist focusing on computer vision and generative models.",
-      "email": "example@u-tokyo.ac.jp",
-      "website": "#"
-    },
-    {
-      "name": "Prof. David Lee",
-      "affiliation": "ETH Zurich",
-      "bio": "Professor of Computer Science with expertise in reinforcement learning and robotics.",
-      "email": "example@ethz.ch",
-      "website": "#"
-    }
-  ]
+  "programChairs": []
 }

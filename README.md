@@ -1,1 +1,1 @@
-# VGI
+# BigMAC

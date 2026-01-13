@@ -32,7 +32,6 @@ import homeData from "../../data/home.json";
 import programData from "../../data/program.json";
 import scheduleData from "../../data/schedule.json";
 import organizersData from "../../data/organizers.json";
-import supportersData from "../../data/supporters.json";
 import contactData from "../../data/contact.json";
 import callForPapersData from "../../data/callForPapers.json";
 import type { Route } from "./+types/Home";
@@ -42,11 +41,11 @@ import { buildMeta } from "@/lib/seo";
 export const meta: Route.MetaFunction = () =>
   buildMeta({
     title:
-      "VGI Workshop @ CVPR 2026 | Visual General Intelligence -Vision Research Toward the AGI Era-",
+      "BigMAC Workshop @ CVPR 2026 | Big Model Adaptation for Computer Vision",
     description:
-      "VGI Workshop at CVPR 2026 spotlights resource-efficient representation learning. Join us on October 19 in Honolulu for keynotes, paper presentations, and community updates.",
+      "BigMAC Workshop at CVPR 2026 spotlights big model adaptation for computer vision. Join us on June 2026 in Denver for keynotes, paper presentations, and community updates.",
     path: "/",
-    keywords: ["CVPR workshop 2026", "visual general intelligence"],
+    keywords: ["cvpr workshop 2026", "big model adaptation", "computer vision"],
   });
 
 function Home() {
@@ -100,7 +99,7 @@ function Home() {
             </div>
           </div>
           <div className="space-y-4">
-            <h1 className="text-4xl tracking-tighter sm:text-5xl md:text-6xl">
+            <h1 className="text-3xl tracking-tighter sm:text-4xl md:text-5xl">
               {homeData.title}
             </h1>
             <p className="text-2xl tracking-tight sm:text-3xl md:text-4xl">
@@ -149,43 +148,48 @@ function Home() {
       {/* Overview Section */}
       <section id="about" className="space-y-6">
         <div className="space-y-2">
-          <h2 className="text-3xl tracking-tighter">About VGI Workshop</h2>
+          <h2 className="text-3xl tracking-tighter">About BigMAC Workshop</h2>
           <p>
-            AGI is said to be an AI capable of replicating human intelligence in
-            every aspect. It’s evident intelligence in the visual domain will
-            contribute to the advent, and discussions and preparations toward
-            this goal are crucial within the CVPR community as well. We might
-            ask, should the pursuit of visual intelligence, termed visual
-            general intelligence (VGI), be seen as an extension of current
-            vision research, or does it require a radical leap or paradigm
-            shift? How we should conduct vision research for the next
-            generation, especially directions that don’t rely heavily on the
-            language domain, is essential to explore.
+            This workshop explores how large pretrained models are
+            revolutionizing computer vision. We examine emerging techniques
+            where models like Stable Diffusion enable image-to-3D
+            reconstruction, architectures like VGG Transformer (VGGT) leverage
+            pretrained DINO for enhanced visual understanding, and methods like
+            REA harness pretrained models for improved diffusion generation. The
+            workshop covers four key areas: emerging uses of pretrained vision
+            models for 3D and generative AI, prompting techniques for vision
+            models, the role of vision models in multimodal LLMs, and
+            post-pretraining adaptation strategies. BigMAC brings together
+            researchers to address the challenges and opportunities in
+            effectively adapting foundation models for diverse downstream vision
+            tasks.
           </p>
         </div>
         {/* Broader impact */}
         <div className="space-y-2">
           <h3 className="text-2xl tracking-tighter">Broader impact</h3>
           <p>
-            AGI is said to be an AI capable of replicating human intelligence in
-            every aspect. It’s evident intelligence in the visual domain will
-            contribute to the advent, and discussions and preparations toward
-            this goal are crucial within the CVPR community as well. We might
-            ask, should the pursuit of visual intelligence, termed visual
-            general intelligence (VGI), be seen as an extension of current
-            vision research, or does it require a radical leap or paradigm
-            shift? How we should conduct vision research for the next
-            generation, especially directions that don’t rely heavily on the
-            language domain, is essential to explore.
+            The goal of this workshop is to explore and discuss ways of
+            effectively adapting and utilizing large pretrained models in
+            computer vision. The sheer parameter and training dataset sizes mean
+            that these foundation models often cannot be trained from scratch by
+            academia, yet they offer unprecedented opportunities for downstream
+            adaptation. These developments bring both challenges and novel
+            opportunities - from leveraging pretrained diffusion models for 3D
+            reconstruction to incorporating vision encoders into multimodal
+            systems. Rather than viewing model scale as a barrier, we focus on
+            innovative usage and adaptation techniques and post-pretraining
+            strategies that make these powerful models accessible and useful for
+            diverse applications. In this workshop, we aim to bring together
+            researchers from academia and industry to discuss how the vision
+            community can best harness these pretrained foundations for
+            advancing computer vision research and applications.
           </p>
         </div>
         {/* Topics of Interest */}
         <div className="space-y-2">
           <h3 className="text-2xl tracking-tighter">Topics of Interest</h3>
-          <p>
-            The workshop focus on following topics across the diverse domains
-            covered by our organizers:
-          </p>
+          <p>The workshop focus on following topics:</p>
           <div className="space-y-2">
             <ul className="list-disc pl-5 space-y-1">
               {callForPapersData.topics.core.map((topic, index) => (
@@ -202,6 +206,15 @@ function Home() {
           <h2 className="text-2xl sm:text-3xl tracking-tighter">
             Workshop Program
           </h2>
+        </div>
+        <div className="flex items-start gap-4 rounded-lg border bg-card p-6">
+          <Info className="h-6 w-6 shrink-0 text-primary" />
+          <p>
+            The following workshop program describes the tentative schedule in
+            the case that the workshop is held in the morning. Please note that
+            the program may change depending on the assigned time slot. Please
+            check back for updates.
+          </p>
         </div>
         <ScrollArea className="w-[80dvw] md:w-full">
           <Table>
@@ -249,14 +262,6 @@ function Home() {
           <h2 className="text-2xl sm:text-3xl tracking-tighter">
             Invited Speakers
           </h2>
-        </div>
-        <div className="flex items-start gap-4 rounded-lg border bg-card p-6">
-          <Info className="h-6 w-6 shrink-0 text-primary" />
-          <p>
-            The list of invited speakers is not yet finalized. Some speakers
-            have given tentative confirmation, and additional speakers may be
-            announced in the future. Please check back for updates.
-          </p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {programData.invitedSpeakers.map((speaker, index) => (
@@ -328,46 +333,6 @@ function Home() {
                   asChild
                 >
                   <a href={chair.website} target="_blank" rel="noreferrer">
-                    Website <ExternalLink className="h-4 w-4" />
-                  </a>
-                </Button>
-              </CardFooter>
-            </Card>
-          ))}
-        </div>
-      </section>
-
-      {/* Supporters */}
-      <section id="supporters" className="space-y-6">
-        <div className="space-y-2">
-          <h2 className="text-2xl sm:text-3xl tracking-tighter">Supporters</h2>
-        </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {supportersData.supporters.map((supporter, index) => (
-            <Card key={index}>
-              <CardHeader>
-                <CardTitle>{supporter.name}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  <div className="aspect-square bg-white dark:bg-white rounded-md flex items-center justify-center">
-                    <img
-                      src={supporter.logo}
-                      alt={`Logo of ${supporter.name}`}
-                      className="object-contain w-full h-full p-4"
-                      loading="lazy"
-                    />
-                  </div>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="flex gap-2"
-                  asChild
-                >
-                  <a href={supporter.website} target="_blank" rel="noreferrer">
                     Website <ExternalLink className="h-4 w-4" />
                   </a>
                 </Button>

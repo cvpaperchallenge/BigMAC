@@ -1,55 +1,40 @@
 {
   "title": "Schedule",
-  "subtitle": "Important dates and workshop program",
+  "subtitle": "Workshop program",
   "importantDates": [
     {
-      "title": "Paper Submission Deadline",
-      "date": "July 10, 2025",
-      "description": "All submissions must be received by 11:59 PM Hawaii Standard Time (HST)"
-    },
-    {
-      "title": "Author Notification",
-      "date": "August 25, 2025",
-      "description": "Authors will be notified of acceptance decisions"
-    },
-    {
-      "title": "Camera-Ready Deadline",
-      "date": "August 31, 2025",
-      "description": "Final versions of accepted papers must be submitted"
-    },
-    {
       "title": "Workshop Date",
-      "date": "October, 19, 2025, 1:00 PM - 6:00 PM (HST)",
-      "description": "Workshop sessions at ICCV 2025"
+      "date": "June 2026 (TBD)",
+      "description": "Half-day workshop at CVPR 2026"
     }
   ],
   "workshopProgram": {
     "day1": {
-      "date": "Not Decided Yet",
-      "location": "Denver Colorado",
+      "date": "June 2026 (TBD)",
+      "location": "Nashville, Tennessee",
       "schedule": [
         {
-          "time": "08:30 - 08:40",
+          "time": "09:00 - 09:10",
           "session": "Opening Remarks",
-          "presenter": "Hirokatsu Kataoka",
+          "presenter": "Yuki M. Asano",
           "slides": ""
         },
         {
-          "time": "08:40 - 09:10",
+          "time": "09:10 - 09:30",
           "session": "Invited Talk 1",
-          "presenter": "Robert Geirhos",
+          "presenter": "Oriane Simeoni",
           "slides": ""
         },
         {
-          "time": "09:10 - 09:40",
+          "time": "09:30 - 09:50",
           "session": "Invited Talk 2",
-          "presenter": "Aditi Raghunathan",
+          "presenter": "Christian Rupprecht",
           "slides": ""
         },
         {
-          "time": "09:40 - 10:10",
+          "time": "09:50 - 10:10",
           "session": "Invited Talk 3",
-          "presenter": "Matt Deitke",
+          "presenter": "Cordelia Schmid",
           "slides": ""
         },
         {
@@ -59,15 +44,21 @@
           "slides": ""
         },
         {
-          "time": "10:20 - 10:50",
+          "time": "10:20 - 10:40",
           "session": "Invited Talk 4",
-          "presenter": "Kristen Grauman",
+          "presenter": "Saining Xie",
           "slides": ""
         },
         {
-          "time": "10:50 - 11:20",
+          "time": "10:40 - 11:00",
           "session": "Invited Talk 5",
-          "presenter": "Yuki M. Asano",
+          "presenter": "Yannis Kalantidis",
+          "slides": ""
+        },
+        {
+          "time": "11:00 - 11:20",
+          "session": "Invited Talk 6",
+          "presenter": "Lucas Beyer",
           "slides": ""
         },
         {
@@ -77,93 +68,42 @@
           "slides": ""
         },
         {
-          "time": "11:30 - 12:00",
-          "session": "Panel session (1-5)",
+          "time": "11:30 - 12:15",
+          "session": "Panel Discussion (Speakers 1-6)",
           "presenter": "",
           "slides": ""
         },
         {
-          "time": "12:00 - 13:30",
-          "session": "Lunch break / poster session (invite-only)",
-          "presenter": "",
-          "slides": ""
-        },
-        {
-          "time": "13:30 - 14:00",
-          "session": "Invited Talk 6",
-          "presenter": "Andrea Vedaldi",
-          "slides": ""
-        },
-        {
-          "time": "14:00 - 14:30",
-          "session": "Invited Talk 7",
-          "presenter": "Alexei A. Efros",
-          "slides": ""
-        },
-        {
-          "time": "14:30 - 15:00",
-          "session": "Coffee break",
-          "presenter": "",
-          "slides": ""
-        },
-        {
-          "time": "15:00 - 15:30",
-          "session": "Invited Talk 8",
-          "presenter": "Jamie Shotton",
-          "slides": ""
-        },
-        {
-          "time": "15:30 - 16:00",
-          "session": "Invited Talk 9",
-          "presenter": "Kaiming He",
-          "slides": ""
-        },
-        {
-          "time": "16:00 - 16:10",
-          "session": "Short Break",
-          "presenter": "",
-          "slides": ""
-        },
-        {
-          "time": "16:10 - 16:40",
-          "session": "Panel session (6-9)",
-          "presenter": "",
-          "slides": ""
-        },
-        {
-          "time": "16:40 - 16:50",
-          "session": "Closing remarks",
+          "time": "12:15 - 13:30",
+          "session": "Lunch Break / Poster Session (Invite-only)",
           "presenter": "",
           "slides": ""
         }
       ]
     },
     "day2": {
-      "date": "October 16, 2025",
-      "location": "Hawaii Convention Center 306 A",
+      "date": "",
+      "location": "",
       "schedule": []
     }
   },
   "presenterGuidelines": {
     "oralPresentation": {
-      "title": "Oral Presentation Guidelines",
-      "content": "Each oral presentation will be allocated 15 minutes, followed by 5 minutes for questions and answers.",
+      "title": "Invited Talk Guidelines",
+      "content": "Each invited talk will be allocated 20 minutes including Q&A.",
       "guidelines": [
         "Prepare slides in 16:9 format",
         "Upload your presentation at least 30 minutes before your session",
-        "Include your paper title, authors, and affiliations on the first slide",
-        "A timer will be visible to help you manage your time"
+        "Include your talk title, name, and affiliations on the first slide"
       ]
     },
     "posterPresentation": {
       "title": "Poster Presentation Guidelines",
-      "content": "Posters will be displayed during the dedicated poster session. At least one author must be present during this time.",
+      "content": "Posters will be displayed during the lunch break poster session (invite-only).",
       "guidelines": [
         "Maximum poster size: 36\" x 48\" (91cm x 122cm)",
         "Portrait orientation is recommended",
-        "Set up your poster 30 minutes before the session starts",
-        "Prepare a 2-minute elevator pitch for your work",
-        "Consider bringing handouts or QR codes linking to your paper/code"
+        "Set up your poster 30 minutes before the session starts"
       ]
     },
     "technicalRequirements": {

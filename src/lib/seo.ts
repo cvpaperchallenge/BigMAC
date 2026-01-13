@@ -1,18 +1,20 @@
 import type { MetaDescriptor } from "react-router";
 
-const SITE_URL = "https://cvpr2026-vgi-workshop.limitlab.xyz";
+const SITE_URL = "https://cvpr2026-bigmac-workshop.limitlab.xyz";
 const DEFAULT_IMAGE = `${SITE_URL}/limitlab-logo-white-wide.png`;
 const DEFAULT_IMAGE_ALT =
-  "VGI Workshop at CVPR 2026 wordmark on a dark gradient background";
-const SITE_NAME = "VGI Workshop @ CVPR 2026";
+  "BigMAC Workshop at CVPR 2026 wordmark on a dark gradient background";
+const SITE_NAME =
+  "BigMAC: Big Model Adaptation for Computer Vision @ CVPR 2026";
 const DEFAULT_DESCRIPTION =
-  "Official site for the CVPR 2026 Workshop on Visual General Intelligence: Vision Research Toward the AGI Era.";
+  "Official site for the CVPR 2026 Workshop on Big Model Adaptation for Computer Vision.";
 const DEFAULT_KEYWORDS = [
-  "VGI Workshop",
+  "BigMAC Workshop",
   "CVPR 2026",
-  "Visual General Intelligence",
-  "VGI",
-  "AGI",
+  "Big Model Adaptation",
+  "Foundation Models",
+  "Big Models",
+  "Adaptation",
   "LIMIT Lab",
 ];
 
