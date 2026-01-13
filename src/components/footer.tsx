@@ -6,8 +6,8 @@ import { Link } from "react-router";
 
 export function Footer() {
   return (
-    <footer className="w-full border-t bg-footer-background/70 py-6 md:py-10 px-6 flex-col justify-items-center">
-      <div className="container grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+    <footer className="w-full border-t bg-footer-background/70 py-6 md:py-10 flex flex-col items-center">
+      <div className="container grid gap-8 md:grid-cols-2 lg:grid-cols-4 px-6 xl:w-6xl">
         {/* Logo and Workshop Name */}
         {/* <div className="flex flex-col gap-2">
           <Link to="/" className="flex items-center space-x-2">
@@ -126,7 +126,7 @@ export function Footer() {
       </div>
 
       {/* Credits */}
-      <div className="container mt-8 border-t pt-4">
+      <div className="container mt-8 border-t pt-4 px-6 xl:w-6xl">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <Link to="/" className="flex items-center space-x-2">
             <span className="font-bold text-lg">BigMAC Workshop</span>
