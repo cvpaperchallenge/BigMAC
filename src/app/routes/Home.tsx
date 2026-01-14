@@ -131,25 +131,47 @@ function Home() {
         </div>
       </section>
 
-      {/* Latest News Section */}
-      <section id="news" className="space-y-6">
-        <div className="space-y-2">
-          <h2 className="text-3xl tracking-tighter">Latest News</h2>
+      {/* Info + Latest News Section */}
+      <div className="space-y-6 -mt-8">
+        {/* Info Section */}
+        <div className="flex items-start gap-4 rounded-lg border bg-card p-6">
+          <Info className="h-6 w-6 shrink-0 text-primary" />
+          <p className="font-medium">
+            This workshop does NOT have a call for papers. Instead, we will hold
+            an invited poster session. If you would like to nominate your paper
+            for a poster presentation at our workshop, please add it{" "}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdei0hTZJ8bA6gAUtcpY6UiJW05wwVl7e507RLSyGi2jHnOtA/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80"
+            >
+              here
+            </a>
+            .
+          </p>
         </div>
-        <div className="space-y-4">
-          {homeData.latestNews.map((news, index) => (
-            <div key={index} className="rounded-lg border bg-card p-6">
-              <div className="flex justify-between items-start">
-                <div className="space-y-1">
-                  <h3 className="font-semibold">{news.title}</h3>
-                  <p className="text-sm text-muted-foreground">{news.date}</p>
+
+        {/* Latest News Section */}
+        <section id="news" className="space-y-6 mt-16">
+          <div className="space-y-2">
+            <h2 className="text-3xl tracking-tighter">Latest News</h2>
+          </div>
+          <div className="space-y-4">
+            {homeData.latestNews.map((news, index) => (
+              <div key={index} className="rounded-lg border bg-card p-6">
+                <div className="flex justify-between items-start">
+                  <div className="space-y-1">
+                    <h3 className="font-semibold">{news.title}</h3>
+                    <p className="text-sm text-muted-foreground">{news.date}</p>
+                  </div>
                 </div>
+                <p className="mt-2">{news.content}</p>
               </div>
-              <p className="mt-2">{news.content}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
+      </div>
 
       {/* Overview Section */}
       <section id="about" className="space-y-6">
