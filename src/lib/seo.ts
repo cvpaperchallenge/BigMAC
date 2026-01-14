@@ -1,7 +1,7 @@
 import type { MetaDescriptor } from "react-router";
 
 const SITE_URL = "https://cvpr2026-bigmac-workshop.limitlab.xyz";
-const DEFAULT_IMAGE = `${SITE_URL}/limitlab-logo-white-wide.png`;
+const DEFAULT_IMAGE = `${SITE_URL}/bigmac-ogp.jpg`;
 const DEFAULT_IMAGE_ALT =
   "BigMAC Workshop at CVPR 2026 wordmark on a dark gradient background";
 const SITE_NAME =
