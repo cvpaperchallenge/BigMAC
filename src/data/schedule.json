@@ -4,14 +4,14 @@
   "importantDates": [
     {
       "title": "Workshop Date",
-      "date": "June 2026 (TBD)",
+      "date": "June 4, 2026, 1:00 PM",
       "description": "Half-day workshop at CVPR 2026"
     }
   ],
   "workshopProgram": {
     "day1": {
-      "date": "June 2026 (TBD)",
-      "location": "Nashville, Tennessee",
+      "date": "June 4, 2026",
+      "location": "Colorado Convention Center - Room 2E-2H",
       "schedule": [
         {
           "time": "09:00 - 09:10",

@@ -3,8 +3,8 @@
   "tagline": "",
   "subtitle": "CVPR 2026 Workshop",
   "eventInfo": {
-    "date": "Not Decided Yet",
-    "location": "Denver Colorado"
+    "date": "June 4, 2026, 1:00 PM",
+    "location": "Colorado Convention Center - Room 2E-2H"
   },
   "overview": {
     "mission": "This workshop explores how large pretrained models are revolutionizing computer vision. We examine emerging techniques where models like Stable Diffusion enable image-to-3D reconstruction, architectures like VGG Transformer (VGGT) leverage pretrained DINO for enhanced visual understanding, and methods like REA harness pretrained models for improved diffusion generation. BigMAC brings together researchers to address the challenges and opportunities in effectively adapting foundation models for diverse downstream vision tasks.",
@@ -19,7 +19,7 @@
   "importantDates": [
     {
       "title": "Workshop Date",
-      "date": "June 2026 (TBD)"
+      "date": "June 4, 2026, 1:00 PM"
     }
   ],
   "latestNews": [
