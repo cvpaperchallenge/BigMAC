@@ -27,16 +27,16 @@
       "website": "https://www.sainingxie.com/"
     },
     {
-      "name": "Yannis Kalantidis",
-      "affiliation": "NAVER LABS Europe",
-      "photo": "/program/yannis.kalantidis-512x512.jpg",
-      "website": "https://www.skamalas.com/"
+      "name": "TBA",
+      "affiliation": "TBA",
+      "photo": "/program/tba-512x512.jpg",
+      "website": ""
     },
     {
-      "name": "Lucas Beyer",
-      "affiliation": "Meta Superintelligence Labs",
-      "photo": "/program/lucas.beyer-512x512.jpg",
-      "website": "https://lucasb.eyer.be/"
+      "name": "TBA",
+      "affiliation": "TBA",
+      "photo": "/program/tba-512x512.jpg",
+      "website": ""
     }
   ],
   "acceptedPapers": {
@@ -52,8 +52,8 @@
       "Christian Rupprecht - University of Oxford",
       "Cordelia Schmid - INRIA / Google",
       "Saining Xie - NYU Courant",
-      "Yannis Kalantidis - NAVER LABS Europe",
-      "Lucas Beyer - Meta Superintelligence Labs"
+      "TBA",
+      "TBA"
     ],
     "moderator": "TBD"
   },
