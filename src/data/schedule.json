@@ -14,69 +14,59 @@
       "location": "Colorado Convention Center - Room 2E-2H",
       "schedule": [
         {
-          "time": "09:00 - 09:10",
+          "time": "13:00 - 13:10",
           "session": "Opening Remarks",
           "presenter": "Yuki M. Asano",
+          "title": "",
           "slides": ""
         },
         {
-          "time": "09:10 - 09:30",
+          "time": "13:10 - 13:35",
           "session": "Invited Talk 1",
-          "presenter": "Oriane Simeoni",
+          "presenter": "Oriane Siméoni",
+          "title": "DINOv3 and the Case for Self-Supervised Learning at Scale",
           "slides": ""
         },
         {
-          "time": "09:30 - 09:50",
+          "time": "13:35 - 14:00",
           "session": "Invited Talk 2",
-          "presenter": "Christian Rupprecht",
+          "presenter": "Andrei Bursuc",
+          "title": "Foundation on Wheels: Adapting Large Models for Autonomous Driving",
           "slides": ""
         },
         {
-          "time": "09:50 - 10:10",
+          "time": "14:00 - 14:25",
           "session": "Invited Talk 3",
           "presenter": "Cordelia Schmid",
+          "title": "",
           "slides": ""
         },
         {
-          "time": "10:10 - 10:20",
-          "session": "Short Break",
-          "presenter": "",
-          "slides": ""
-        },
-        {
-          "time": "10:20 - 10:40",
+          "time": "14:25 - 14:50",
           "session": "Invited Talk 4",
-          "presenter": "Saining Xie",
+          "presenter": "Hilde Kuehne",
+          "title": "",
           "slides": ""
         },
         {
-          "time": "10:40 - 11:00",
+          "time": "14:50 - 15:20",
+          "session": "Lightning Talks",
+          "presenter": "Emerging Scholars",
+          "title": "",
+          "slides": ""
+        },
+        {
+          "time": "15:20 - 15:50",
           "session": "Invited Talk 5",
-          "presenter": "TBA",
+          "presenter": "Christian Rupprecht",
+          "title": "Do we still need explicit 3D?",
           "slides": ""
         },
         {
-          "time": "11:00 - 11:20",
-          "session": "Invited Talk 6",
-          "presenter": "TBA",
-          "slides": ""
-        },
-        {
-          "time": "11:20 - 11:30",
-          "session": "Short Break",
+          "time": "16:00 - 16:30",
+          "session": "Networking / Poster Session (Invite-only)",
           "presenter": "",
-          "slides": ""
-        },
-        {
-          "time": "11:30 - 12:15",
-          "session": "Panel Discussion (Speakers 1-6)",
-          "presenter": "",
-          "slides": ""
-        },
-        {
-          "time": "12:15 - 13:30",
-          "session": "Lunch Break / Poster Session (Invite-only)",
-          "presenter": "",
+          "title": "",
           "slides": ""
         }
       ]

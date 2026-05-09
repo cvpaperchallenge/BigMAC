@@ -260,7 +260,16 @@ function Home() {
               {scheduleData.workshopProgram.day1.schedule.map((item, index) => (
                 <TableRow key={index}>
                   <TableCell className="font-medium">{item.time}</TableCell>
-                  <TableCell>{item.session}</TableCell>
+                  <TableCell>
+                    <div className="space-y-1">
+                      <div>{item.session}</div>
+                      {item.title && (
+                        <div className="text-sm text-muted-foreground italic">
+                          {item.title}
+                        </div>
+                      )}
+                    </div>
+                  </TableCell>
                   <TableCell className="hidden md:table-cell">
                     {item.presenter || ""}
                   </TableCell>
