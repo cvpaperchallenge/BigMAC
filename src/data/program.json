@@ -21,6 +21,12 @@
       "website": "https://thoth.inrialpes.fr/~schmid/"
     },
     {
+      "name": "Hilde Kuehne",
+      "affiliation": "University of Tuebingen / MIT-IBM Watson AI Lab",
+      "photo": "/program/hilde.kuehne.jpg",
+      "website": "https://hildekuehne.github.io/"
+    },
+    {
       "name": "Christian Rupprecht",
       "affiliation": "University of Oxford",
       "photo": "/program/christian.rupprecht-512x512.jpg",
@@ -39,6 +45,7 @@
       "Oriane Simeoni - Meta FAIR",
       "Andrei Bursuc - valeo.ai / Inria",
       "Cordelia Schmid - INRIA / Google",
+      "Hilde Kuehne - University of Tuebingen / MIT-IBM Watson AI Lab",
       "Christian Rupprecht - University of Oxford"
     ],
     "moderator": "TBD"
