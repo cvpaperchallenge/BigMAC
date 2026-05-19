@@ -42,29 +42,36 @@
           "slides": ""
         },
         {
-          "time": "14:25 - 14:50",
+          "time": "14:25 - 14:40",
+          "session": "15min Break",
+          "presenter": "",
+          "title": "",
+          "slides": ""
+        },
+        {
+          "time": "14:40 - 15:05",
           "session": "Invited Talk 4",
           "presenter": "Hilde Kuehne",
           "title": "",
           "slides": ""
         },
         {
-          "time": "14:50 - 15:20",
-          "session": "Lightning Talks",
-          "presenter": "Emerging Scholars",
-          "title": "",
+          "time": "15:05 - 15:30",
+          "session": "Invited Talk 5 [remote]",
+          "presenter": "Saining Xie",
+          "title": "Representing and Tracking Visual States in Video",
           "slides": ""
         },
         {
-          "time": "15:20 - 15:50",
-          "session": "Invited Talk 5",
+          "time": "15:30 - 15:55",
+          "session": "Invited Talk 6",
           "presenter": "Christian Rupprecht",
           "title": "Do we still need explicit 3D?",
           "slides": ""
         },
         {
-          "time": "16:00 - 16:30",
-          "session": "Networking / Poster Session (Invite-only)",
+          "time": "15:55 - 17:30",
+          "session": "Networking / Poster Session",
           "presenter": "",
           "title": "",
           "slides": ""
