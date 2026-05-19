@@ -27,6 +27,12 @@
       "website": "https://hildekuehne.github.io/"
     },
     {
+      "name": "Saining Xie",
+      "affiliation": "New York University",
+      "photo": "/program/saining.xie-512x512.jpg",
+      "website": "https://www.sainingxie.com/"
+    },
+    {
       "name": "Christian Rupprecht",
       "affiliation": "University of Oxford",
       "photo": "/program/christian.rupprecht-512x512.jpg",
@@ -46,6 +52,7 @@
       "Andrei Bursuc - valeo.ai / Inria",
       "Cordelia Schmid - INRIA / Google",
       "Hilde Kuehne - University of Tuebingen / MIT-IBM Watson AI Lab",
+      "Saining Xie - New York University",
       "Christian Rupprecht - University of Oxford"
     ],
     "moderator": "TBD"
