@@ -29,9 +29,9 @@
         },
         {
           "time": "13:35 - 14:00",
-          "session": "Invited Talk 2",
-          "presenter": "Andrei Bursuc",
-          "title": "Foundation on Wheels: Adapting Large Models for Autonomous Driving",
+          "session": "Invited Talk 2 [remote]",
+          "presenter": "Christian Rupprecht",
+          "title": "Do we still need explicit 3D?",
           "slides": ""
         },
         {
@@ -52,7 +52,7 @@
           "time": "14:40 - 15:05",
           "session": "Invited Talk 4",
           "presenter": "Hilde Kuehne",
-          "title": "",
+          "title": "Adventures in RL - Reasoning and Test-Time Adaptation for MLLMs",
           "slides": ""
         },
         {
@@ -65,8 +65,8 @@
         {
           "time": "15:30 - 15:55",
           "session": "Invited Talk 6",
-          "presenter": "Christian Rupprecht",
-          "title": "Do we still need explicit 3D?",
+          "presenter": "Andrei Bursuc",
+          "title": "Foundation on Wheels: Adapting Large Models for Autonomous Driving",
           "slides": ""
         },
         {

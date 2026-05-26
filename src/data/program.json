@@ -9,10 +9,10 @@
       "website": "https://osimeoni.github.io/"
     },
     {
-      "name": "Andrei Bursuc",
-      "affiliation": "valeo.ai / Inria",
-      "photo": "/program/andrei.bursuc.jpg",
-      "website": "https://abursuc.github.io/"
+      "name": "Christian Rupprecht",
+      "affiliation": "University of Oxford",
+      "photo": "/program/christian.rupprecht-512x512.jpg",
+      "website": "https://chrirupp.github.io/"
     },
     {
       "name": "Cordelia Schmid",
@@ -33,10 +33,10 @@
       "website": "https://www.sainingxie.com/"
     },
     {
-      "name": "Christian Rupprecht",
-      "affiliation": "University of Oxford",
-      "photo": "/program/christian.rupprecht-512x512.jpg",
-      "website": "https://chrirupp.github.io/"
+      "name": "Andrei Bursuc",
+      "affiliation": "valeo.ai / Inria",
+      "photo": "/program/andrei.bursuc.jpg",
+      "website": "https://abursuc.github.io/"
     }
   ],
   "acceptedPapers": {
