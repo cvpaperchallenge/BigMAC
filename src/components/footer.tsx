@@ -60,6 +60,12 @@ export function Footer() {
             Speakers
           </Link>
           <Link
+            to="/#posters"
+            className="text-sm text-muted-foreground hover:text-foreground"
+          >
+            Posters
+          </Link>
+          <Link
             to="/#organizers"
             className="text-sm text-muted-foreground hover:text-foreground"
           >

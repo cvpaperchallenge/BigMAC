@@ -338,6 +338,52 @@ function Home() {
         </div>
       </section>
 
+      {/* Poster Session */}
+      {programData.acceptedPapers.poster.length > 0 && (
+        <section id="posters" className="space-y-6">
+          <div className="space-y-2">
+            <h2 className="text-2xl sm:text-3xl tracking-tighter">
+              Poster Session
+            </h2>
+          </div>
+          <p>
+            Posters must be 42&quot; x 21&quot; (Width x Height, aspect ratio
+            2:1, landscape format). All posters will be displayed in{" "}
+            <span className="font-semibold">Exhibit Hall A</span>. Poster boards
+            will be available during your assigned session time. You may use the
+            official{" "}
+            <a
+              href="https://drive.google.com/drive/folders/1oaXlMOJzWMYUiFBImMepKsZcoicpks8Z"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary"
+            >
+              CVPR logos and poster templates
+            </a>
+            .
+          </p>
+          <div className="relative border-border space-y-8">
+            {programData.acceptedPapers.poster.map((paper, index) => (
+              <div key={index} className="relative">
+                <div className="space-y-1">
+                  <div className="flex items-start gap-2">
+                    <h3 className="font-semibold">
+                      {paper.id}. {paper.title}
+                    </h3>
+                    {paper.posterBoard && (
+                      <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+                        Poster Board {paper.posterBoard}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-sm">{paper.authors}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Organizers */}
       <section id="organizers" className="space-y-6">
         <div className="space-y-2">
