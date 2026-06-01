@@ -338,12 +338,12 @@ function Home() {
         </div>
       </section>
 
-      {/* Poster Session */}
+      {/* Invited Poster Session */}
       {programData.acceptedPapers.poster.length > 0 && (
         <section id="posters" className="space-y-6">
           <div className="space-y-2">
             <h2 className="text-2xl sm:text-3xl tracking-tighter">
-              Poster Session
+              Invited Poster Session
             </h2>
           </div>
           <p>
