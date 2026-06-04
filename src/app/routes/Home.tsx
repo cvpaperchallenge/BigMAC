@@ -1,11 +1,4 @@
-import {
-  Calendar,
-  Mail,
-  MapPin,
-  ExternalLink,
-  FileText,
-  Info,
-} from "lucide-react";
+import { Calendar, Mail, MapPin, ExternalLink, Info } from "lucide-react";
 import { SiSlack } from "react-icons/si";
 import { Link, useLocation } from "react-router";
 import { useEffect } from "react";
