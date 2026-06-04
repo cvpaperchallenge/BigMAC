@@ -250,10 +250,6 @@ function Home() {
               <TableRow>
                 <TableHead className="w-[150px]">Time</TableHead>
                 <TableHead>Session</TableHead>
-                <TableHead className="hidden md:table-cell">
-                  Presenter
-                </TableHead>
-                <TableHead className="hidden md:table-cell w-[140px]"></TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -262,28 +258,22 @@ function Home() {
                   <TableCell className="font-medium">{item.time}</TableCell>
                   <TableCell>
                     <div className="space-y-1">
-                      <div>{item.session}</div>
+                      {item.presenter ? (
+                        <>
+                          <div className="font-semibold">{item.presenter}</div>
+                          <div className="text-sm text-muted-foreground">
+                            {item.session}
+                          </div>
+                        </>
+                      ) : (
+                        <div>{item.session}</div>
+                      )}
                       {item.title && (
                         <div className="text-sm text-muted-foreground italic">
                           {item.title}
                         </div>
                       )}
                     </div>
-                  </TableCell>
-                  <TableCell className="hidden md:table-cell">
-                    {item.presenter || ""}
-                  </TableCell>
-                  <TableCell className="hidden md:table-cell">
-                    {item.slides ? (
-                      <Button variant="ghost" size="sm" asChild>
-                        <a href={item.slides} target="_blank" rel="noreferrer">
-                          <FileText className="mr-2 h-4 w-4" />
-                          Slides
-                        </a>
-                      </Button>
-                    ) : (
-                      <span className="text-muted-foreground text-sm"></span>
-                    )}
                   </TableCell>
                 </TableRow>
               ))}
