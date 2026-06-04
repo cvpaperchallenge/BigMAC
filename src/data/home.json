@@ -4,7 +4,7 @@
   "subtitle": "CVPR 2026 Workshop",
   "eventInfo": {
     "date": "June 4, 2026, 1:00 PM",
-    "location": "Colorado Convention Center - Room Four Seasons 2"
+    "location": "Colorado Convention Center - Room Four Seasons Ballroom 2"
   },
   "overview": {
     "mission": "This workshop explores how large pretrained models are revolutionizing computer vision. We examine emerging techniques where models like Stable Diffusion enable image-to-3D reconstruction, architectures like VGG Transformer (VGGT) leverage pretrained DINO for enhanced visual understanding, and methods like REA harness pretrained models for improved diffusion generation. BigMAC brings together researchers to address the challenges and opportunities in effectively adapting foundation models for diverse downstream vision tasks.",
@@ -26,7 +26,7 @@
     {
       "title": "Room Information Updated",
       "date": "June 2, 2026",
-      "content": "The workshop room has been updated to Room Four Seasons 2 at the Colorado Convention Center. Please note this change when planning your visit."
+      "content": "The workshop room has been updated to Room Four Seasons Ballroom 2 at the Colorado Convention Center. Please note this change when planning your visit."
     },
     {
       "title": "Workshop page open",
