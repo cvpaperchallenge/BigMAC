@@ -228,15 +228,6 @@ function Home() {
             Workshop Program
           </h2>
         </div>
-        <div className="flex items-start gap-4 rounded-lg border bg-card p-6">
-          <Info className="h-6 w-6 shrink-0 text-primary" />
-          <p>
-            The following workshop program describes the tentative schedule in
-            the case that the workshop is held in the morning. Please note that
-            the program may change depending on the assigned time slot. Please
-            check back for updates.
-          </p>
-        </div>
         <ScrollArea className="w-[80dvw] md:w-full">
           <Table>
             <TableHeader>
