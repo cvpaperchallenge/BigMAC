@@ -366,16 +366,12 @@ function Home() {
             {programData.acceptedPapers.poster.map((paper, index) => (
               <div key={index} className="relative">
                 <div className="space-y-1">
-                  <div className="flex items-start gap-2">
-                    <h3 className="font-semibold">
-                      {paper.id}. {paper.title}
-                    </h3>
-                    {paper.posterBoard && (
-                      <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
-                        Poster Board {paper.posterBoard}
-                      </span>
-                    )}
-                  </div>
+                  {paper.posterBoard && (
+                    <span className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary w-fit">
+                      Board {paper.posterBoard}
+                    </span>
+                  )}
+                  <h3 className="font-semibold">{paper.title}</h3>
                   <p className="text-sm">{paper.authors}</p>
                 </div>
               </div>

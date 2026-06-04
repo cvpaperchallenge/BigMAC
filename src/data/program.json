@@ -46,97 +46,97 @@
         "id": 1,
         "title": "Frequency Switching Mechanism for Parameter-Efficient Multi-Task Learning",
         "authors": "Shih-Wen Liu, Yen-Chang Chen, Wei-Ta Chu, Fu-En Yang, Yu-Chiang Frank Wang",
-        "posterBoard": "TBD"
+        "posterBoard": "1"
       },
       {
         "id": 2,
         "title": "EMMA: Concept Erasure Benchmark with Comprehensive Semantic Metrics and Diverse Categories",
         "authors": "Lu Wei, Yuta Nakashima, Noa Garcia",
-        "posterBoard": "TBD"
+        "posterBoard": "2"
       },
       {
         "id": 3,
         "title": "Continual Distillation of Teachers from Different Domains",
         "authors": "Nicolas Michel, Maorong Wang, Jiangpeng He, Toshihiko Yamasaki",
-        "posterBoard": "TBD"
+        "posterBoard": "3"
       },
       {
         "id": 4,
         "title": "Toward Diffusible High-Dimensional Latent Spaces: A Frequency Perspective",
         "authors": "Bolin Lai, XuDong Wang, Saketh Rambhatla, James M. Rehg, Zsolt Kira, Rohit Girdhar, Ishan Misra",
-        "posterBoard": "TBD"
+        "posterBoard": "4"
       },
       {
         "id": 5,
         "title": "Trainable Log-linear Sparse Attention for Efficient Diffusion Transformers",
         "authors": "Yifan Zhou, Zeqi Xiao, Tianyi Wei, Shuai Yang, Xingang Pan",
-        "posterBoard": "TBD"
+        "posterBoard": "5"
       },
       {
         "id": 6,
         "title": "OpenVision 2: A Family of Generative Pretrained Visual Encoders for Multimodal Learning",
         "authors": "Yanqing Liu, Xianhang Li, Letian Zhang, Zirui Wang, Zeyu Zheng, Yuyin Zhou, Cihang Xie",
-        "posterBoard": "TBD"
+        "posterBoard": "6"
       },
       {
         "id": 7,
         "title": "Uncertainty-Aware Knowledge Distillation for Multimodal Large Language Models",
         "authors": "Jingchen Sun, Shaobo Han, Deep Patel, Wataru Kohno, Can Jin, Changyou Chen",
-        "posterBoard": "TBD"
+        "posterBoard": "7"
       },
       {
         "id": 8,
         "title": "Teacher-Guided Routing for Sparse Vision Mixture-of-Experts",
         "authors": "Masahiro Kada, Ryota Yoshihashi, Satoshi Ikehata, Rei Kawakami, Ikuro Sato",
-        "posterBoard": "TBD"
+        "posterBoard": "8"
       },
       {
         "id": 9,
         "title": "PowerCLIP: Powerset Alignment for Fine-Grained Contrastive Pre-Training",
         "authors": "Masaki Kawamura, Nakamasa Inoue, Rintaro Yanagi, Hirokatsu Kataoka, Rio Yokota",
-        "posterBoard": "TBD"
+        "posterBoard": "9"
       },
       {
         "id": 10,
         "title": "VGGT-Ω",
         "authors": "Jianyuan Wang, Minghao Chen, Shangzhan Zhang, Nikita Karaev, Johannes Schönberger, Patrick Labatut, Piotr Bojanowski, David Novotny, Andrea Vedaldi, Christian Rupprecht",
-        "posterBoard": "TBD"
+        "posterBoard": "10"
       },
       {
         "id": 11,
         "title": "SigLino: Efficient Multi-Teacher Distillation for Agglomerative Vision Foundation Models",
         "authors": "Sofian Chaybouti, Sanath Narayan, Yasser Dahou, Phuc H. Lê Khac, Ankit Singh, Ngoc Dung Huynh, Wamiq Reyaz Para, Hilde Kuehne, Hakim Hacid",
-        "posterBoard": "TBD"
+        "posterBoard": "11"
       },
       {
         "id": 12,
         "title": "Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization",
         "authors": "Tsai-Shien Chen, Aliaksandr Siarohin, Gordon Guocheng Qian, Kuan-Chieh Jackson Wang, Egor Nemchinov, Moayed Haji-Ali, Riza Alp Guler, Willi Menapace, Ivan Skorokhodov, Anil Kag, Jun-Yan Zhu, Sergey Tulyakov",
-        "posterBoard": "TBD"
+        "posterBoard": "12"
       },
       {
         "id": 13,
         "title": "SignFLIP: A Unified Model for Sign Language Translation and Generation via Stage-wise Alignment at Scale",
         "authors": "Zhaoyi An, Sihan Tan, Youngbae Hwang, Kazuhiro Nakadai, Rei Kawakami",
-        "posterBoard": "TBD"
+        "posterBoard": "13"
       },
       {
         "id": 14,
         "title": "Less is More: Data-Efficient Adaptation for Controllable Text-to-Video Generation",
         "authors": "Shihan Cheng, Nilesh Kulkarni, David Hyde, Dmitriy Smirnov",
-        "posterBoard": "TBD"
+        "posterBoard": "14"
       },
       {
         "id": 15,
         "title": "A Mixed Diet Makes DINO An Omnivorous Vision Encoder",
         "authors": "Rishabh Kabra, Maks Ovsjanikov, Drew A. Hudson, Ye Xia, Skanda Koppula, Andre Araujo, Joao Carreira, Niloy J. Mitra",
-        "posterBoard": "TBD"
+        "posterBoard": "15"
       },
       {
         "id": 16,
         "title": "Object-Aware 4D Human Motion Generation",
         "authors": "Shurui Gui, Deep Patel, Xiner Li, Martin Renqiang Min",
-        "posterBoard": "TBD"
+        "posterBoard": "16"
       }
     ]
   },
