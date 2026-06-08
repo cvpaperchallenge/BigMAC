@@ -18,63 +18,73 @@
           "session": "Opening Remarks",
           "presenter": "Yuki M. Asano",
           "title": "",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "13:10 - 13:35",
           "session": "Invited Talk 1",
           "presenter": "Oriane Siméoni",
           "title": "DINOv3 and the Case for Self-Supervised Learning at Scale",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "13:35 - 14:00",
           "session": "Invited Talk 2 [remote]",
           "presenter": "Christian Rupprecht",
           "title": "Do we still need explicit 3D?",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "14:00 - 14:25",
           "session": "Invited Talk 3",
           "presenter": "Cordelia Schmid",
           "title": "",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "14:25 - 14:40",
           "session": "15min Break",
           "presenter": "",
           "title": "",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "14:40 - 15:05",
           "session": "Invited Talk 4",
           "presenter": "Hilde Kuehne",
           "title": "Adventures in RL - Reasoning and Test-Time Adaptation for MLLMs",
-          "slides": ""
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-bigmac-workshop-invited-talk-hilde-kuehne_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "15:05 - 15:30",
           "session": "Invited Talk 5 [remote]",
           "presenter": "Saining Xie",
           "title": "Representing and Tracking Visual States in Video",
-          "slides": ""
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-bigmac-workshop-invited-talk-saining-xie_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "15:30 - 15:55",
           "session": "Invited Talk 6",
           "presenter": "Andrei Bursuc",
           "title": "Foundation on Wheels: Adapting Large Models for Autonomous Driving",
-          "slides": ""
+          "resources": []
         },
         {
           "time": "15:55 - 17:30",
           "session": "Networking / Poster Session",
           "presenter": "",
           "title": "",
-          "slides": ""
+          "resources": []
         }
       ]
     },
