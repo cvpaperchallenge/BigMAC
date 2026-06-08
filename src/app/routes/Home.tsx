@@ -1,4 +1,12 @@
-import { Calendar, Mail, MapPin, ExternalLink, Info } from "lucide-react";
+import {
+  Calendar,
+  Mail,
+  MapPin,
+  ExternalLink,
+  Info,
+  FileText,
+  Video,
+} from "lucide-react";
 import { SiSlack } from "react-icons/si";
 import { Link, useLocation } from "react-router";
 import { useEffect } from "react";
@@ -255,6 +263,28 @@ function Home() {
                       {item.title && (
                         <div className="text-sm text-muted-foreground italic">
                           {item.title}
+                        </div>
+                      )}
+                      {item.resources && item.resources.length > 0 && (
+                        <div className="flex items-center gap-3 pt-1">
+                          {item.resources.map((resource, rIndex) => (
+                            <a
+                              key={rIndex}
+                              href={resource.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="inline-flex items-center gap-1 text-xs text-primary hover:text-primary/80"
+                            >
+                              {resource.type === "slides" && (
+                                <FileText className="h-3.5 w-3.5" />
+                              )}
+                              {resource.type === "video" && (
+                                <Video className="h-3.5 w-3.5" />
+                              )}
+                              {resource.type === "slides" && "Slides"}
+                              {resource.type === "video" && "Video"}
+                            </a>
+                          ))}
                         </div>
                       )}
                     </div>
