@@ -32,7 +32,12 @@
           "session": "Invited Talk 2 [remote]",
           "presenter": "Christian Rupprecht",
           "title": "Do we still need explicit 3D?",
-          "resources": []
+          "resources": [
+            {
+              "type": "slides",
+              "url": "https://cdn.limitlab.xyz/cvpr2026/s/cvpr2026-bigmac-workshop-invited-talk-christian-rupprecht_latest-en.pdf"
+            }
+          ]
         },
         {
           "time": "14:00 - 14:25",
